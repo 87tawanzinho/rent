@@ -23,13 +23,14 @@ export default function SecondSection() {
     >
       <Box>
         <Image src={timer} alt="timer" width={300} />
-        <Typography variant="h6" sx={{ width: { xs: '80vw', lg: '400px', color: 'gray' } }}>
+
+        <Typography variant="h6" sx={{ width: { xs: '80vw', lg: '400px', color: 'gray', background: 'white' } }}>
           Pare de perder tempo e alugue um belo carro
         </Typography>
       </Box>
       <Box>
         <Image src={graphic} alt="graphic" width={300} />
-        <Typography sx={{ width: { xs: '80vw', lg: '400px', color: 'gray' } }} variant="h6">
+        <Typography sx={{ width: { xs: '80vw', lg: '400px', color: 'gray', background: 'white' } }} variant="h6">
           São diversas pesquisas que comprovam que alugar sai mais barato que comprar!
         </Typography>
       </Box>
